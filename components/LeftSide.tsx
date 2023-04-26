@@ -15,7 +15,7 @@ export default function LeftSide () {
         <motion.li 
           initial={{opacity: 0, x: -20}}
           animate={{opacity: 1, x: .0}}
-          transition={{delay: .7}}
+          transition={{delay: 1.6}}
           className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center 
         hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
           <a href="#">
@@ -25,7 +25,7 @@ export default function LeftSide () {
         <motion.li 
           initial={{opacity: 0, x: -20}}
           animate={{opacity: 1, x: 0}}
-          transition={{delay: .8}}
+          transition={{delay: 1.7}}
           className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center 
         hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
           <a href="#">
@@ -35,7 +35,7 @@ export default function LeftSide () {
         <motion.li 
           initial={{opacity: 0, x: -20}}
           animate={{opacity: 1, x: 0}}
-          transition={{delay: .9}}
+          transition={{delay: 1.8}}
           className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center 
         hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
           <a href="#">
@@ -45,7 +45,7 @@ export default function LeftSide () {
         <motion.li 
           initial={{opacity: 0, x: -20}}
           animate={{opacity: 1, x: 0}}
-          transition={{delay: 1}}
+          transition={{delay: 1.9}}
           className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center 
            hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
           <a href="#">

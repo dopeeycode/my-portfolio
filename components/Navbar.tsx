@@ -91,7 +91,7 @@ export default function Navbar () {
         <motion.div 
           initial={{opacity: 0, x: 90}}
           animate={{opacity: 1, x: 0}}
-          transition={{duration: .6}}
+          transition={{duration: .7}}
           className='w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textPurple cursor-pointer 
           overflow-hidden group'>
             <span className='w-full h-[2px] bg-textPurple inline-flex transform group-hover:translate-x-2 transition-all
